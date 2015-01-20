@@ -1,0 +1,43 @@
+#!/bin/bash
+
+case "$1" in
+'1u')
+    echo "q">/dev/ttyACM0
+    ;;
+'1d')
+    echo "a">/dev/ttyACM0
+    ;;
+'2u')
+    echo "w">/dev/ttyACM0
+    ;;
+'2d')
+    echo "s">/dev/ttyACM0
+    ;;
+'3u')
+    echo "e">/dev/ttyACM0
+    ;;
+'3d')
+    echo "d">/dev/ttyACM0
+    ;;
+'4u')
+    echo "r">/dev/ttyACM0
+    ;;
+'4d')
+    echo "f">/dev/ttyACM0
+    ;;
+'5u')
+    echo "t">/dev/ttyACM0
+    ;;
+'5d')
+    echo "g">/dev/ttyACM0
+    ;;
+'au')
+    echo "y">/dev/ttyACM0
+    ;;
+'ad')
+    echo "h">/dev/ttyACM0
+    ;;
+*)
+    do_nothing
+    ;;
+esac 
